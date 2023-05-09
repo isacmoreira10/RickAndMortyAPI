@@ -1,0 +1,117 @@
+* {
+    padding: none;
+    font-weight: 900;
+    font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    margin-left: 20%;
+    background: rgb(60, 62, 68);
+    width: 70%;
+    border-radius: 10px;
+    color: #fff;
+    height: 230px;
+    margin-bottom: 5%;
+}
+
+
+.titlePage {
+    color: rgb(32, 35, 41);
+    background-color: #fff;
+    text-align: center;
+    margin-top: 140px;
+    font-size: 100px;
+}
+
+.person {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 230px;
+}
+
+.cardsColection {
+    background: rgb(39, 43, 51);
+    height: 100%;
+    margin-top: 5%;
+    padding-top: 5%;
+    columns: 2;
+}
+
+footer {
+    background: rgb(32, 35, 41);
+    color: rgb(158, 158, 158);
+}
+
+.name {
+    font-size: 1.5rem;
+}
+
+.name:hover {
+    color: rgb(255, 152, 0);
+}
+
+.lastLocation {
+    color: rgb(158, 158, 158);
+}
+
+.firstSeen {
+    color: rgb(158, 158, 158);
+}
+
+.itensFooter {
+    text-align: center;
+    font-size: 15px;
+}
+
+.place {
+    color: white;
+}
+
+.place:hover {
+    color: rgb(255, 152, 0);
+}
+
+.firstPlace:hover {
+    color: rgb(255, 152, 0);
+}
+
+.firstPlace {
+    color: white;
+}
+
+.fa {
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.itens {
+    padding-top: 20px;
+}
+
+.fa:hover {
+    color: rgb(255, 152, 0);
+}
+
+.characther:hover {
+    color: rgb(255, 152, 0);
+}
+
+.test {
+    padding-top: 30px;
+}

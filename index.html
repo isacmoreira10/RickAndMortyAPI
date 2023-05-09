@@ -4,14 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>RickAndMortyAPI</title>
 </head>
 
 <body>
-    <div id="demoID">
-        axios HTTP requests
+    <div>
+        <h1 class="titlePage"> The Rick and Morty API</h1>
     </div>
+    <div id="cardsColection" class="cardsColection">
+        <div class="cards" id="cards"></div>
+    </div>
+    <footer class="itensFooter">
+        <div class="test">
+            <a class="characther" id="characther">CHARACTERS: 826 </a><br>
+        </div>
+        <div class="itens">
+            <a href="https://www.instagram.com/isac__moreira/" class="fa fa-instagram"></a>
+            <a href="https://github.com/isacmoreira10" class="fa fa-github"></a>
+    </footer>
+
     <script type="module" src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js">
     </script>
